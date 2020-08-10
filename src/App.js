@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/navbar/Navigation';
-import Search from './components/search/search';
-
-console.log(process.env.REACT_APP_API_KEY)
+import Cards from './components/cards/Cards';
+import Api from './Api';
 
 function App() {
   return (
     <div className="App">
         <Navigation />
           <div className="container">
-            <Search />
+            <Api />
+            <Cards />
           </div>
     </div>
     
